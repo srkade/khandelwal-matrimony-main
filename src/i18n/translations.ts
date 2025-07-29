@@ -1,0 +1,282 @@
+export const translations = {
+  en: {
+    // Navigation
+    home: 'Home',
+    profiles: 'Profiles',
+    matches: 'Matches',
+    interests: 'Interests',
+    messages: 'Messages',
+    events: 'Events',
+    profile: 'My Profile',
+    settings: 'Settings',
+    logout: 'Logout',
+    admin: 'Admin Panel',
+    
+    // Authentication
+    login: 'Login',
+    signup: 'Sign Up',
+    email: 'Email',
+    password: 'Password',
+    confirmPassword: 'Confirm Password',
+    forgotPassword: 'Forgot Password?',
+    createAccount: 'Create Account',
+    alreadyHaveAccount: 'Already have an account?',
+    dontHaveAccount: "Don't have an account?",
+    verifyEmail: 'Verify your email address',
+    
+    // Profile Fields
+    firstName: 'First Name',
+    lastName: 'Last Name',
+    phone: 'Phone Number',
+    gender: 'Gender',
+    male: 'Male',
+    female: 'Female',
+    other: 'Other',
+    selectGender: 'Select Gender',
+    gotra: 'Gotra',
+    dateOfBirth: 'Date of Birth',
+    birthTime: 'Birth Time',
+    birthPlace: 'Birth Place',
+    education: 'Education',
+    profession: 'Profession',
+    income: 'Income',
+    maritalStatus: 'Marital Status',
+    neverMarried: 'Never Married',
+    divorced: 'Divorced',
+    widowed: 'Widowed',
+    selectMaritalStatus: 'Select Marital Status',
+    height: 'Height',
+    religion: 'Religion',
+    manglik: 'Manglik',
+    yes: 'Yes',
+    no: 'No',
+    partial: 'Partial',
+    selectManglikStatus: 'Select Manglik Status',
+    familyDetails: 'Family Details',
+    
+    // Family Details
+    familyBackground: 'Family Background',
+    fatherName: 'Father Name',
+    motherName: 'Mother Name',
+    siblings: 'Siblings',
+    fatherOccupation: 'Father Occupation',
+    expectations: 'Partner Expectations',
+    partnerExpectations: 'Partner Expectations', // Added for clarity, can be removed if 'expectations' is sufficient
+    
+    // Search & Filters
+    search: 'Search',
+    advancedSearch: 'Advanced Search',
+    filters: 'Filters',
+    ageRange: 'Age Range',
+    heightRange: 'Height Range',
+    city: 'City',
+    state: 'State',
+    educationLevel: 'Education Level',
+    excludeSameGotra: 'Exclude Same Gotra',
+    manglikMatch: 'Manglik Match Required',
+    
+    // Actions
+    expressInterest: 'Express Interest',
+    addToShortlist: 'Add to Shortlist',
+    viewContact: 'View Contact',
+    sendMessage: 'Send Message',
+    blockProfile: 'Block Profile',
+    reportProfile: 'Report Profile',
+    editProfile: 'Edit Profile',
+    uploadPhoto: 'Upload Profile Photo', // Updated
+    uploadHoroscope: 'Upload Horoscope', // Updated
+    
+    // Membership
+    freePlan: 'Free Plan',
+    premiumPlan: 'Premium Plan',
+    upgradeNow: 'Upgrade Now',
+    contactViewsLeft: 'Contact Views Left',
+    unlimitedContactViews: 'Unlimited Contact Views',
+    
+    // Events
+    upcomingEvents: 'Upcoming Events',
+    pastEvents: 'Past Events',
+    createEvent: 'Create Event',
+    eventTitle: 'Event Title',
+    eventDescription: 'Event Description',
+    eventDate: 'Event Date',
+    eventLocation: 'Event Location',
+    rsvp: 'RSVP',
+    attending: 'Attending',
+    interested: 'Interested',
+    
+    // Admin
+    profileApproval: 'Profile Approval',
+    userManagement: 'User Management',
+    reportManagement: 'Report Management',
+    eventManagement: 'Event Management',
+    paymentHistory: 'Payment History',
+    analytics: 'Analytics',
+    approveProfile: 'Approve Profile',
+    rejectProfile: 'Reject Profile',
+    blockUser: 'Block User',
+    unblockUser: 'Unblock User',
+    
+    // Common
+    save: 'Save',
+    cancel: 'Cancel',
+    delete: 'Delete',
+    edit: 'Edit',
+    view: 'View',
+    submit: 'Submit',
+    loading: 'Loading...',
+    success: 'Success',
+    error: 'Error',
+    warning: 'Warning',
+    info: 'Information',
+    required: 'Required',
+    optional: 'Optional',
+    selectLanguage: 'Select Language',
+    professionalEducationalDetails: 'Professional & Educational Details', // New
+    uploads: 'Uploads', // New
+    submitting: 'Submitting...', // New
+    years: 'years', // New
+  },
+  
+  hi: {
+    // Navigation
+    home: 'होम',
+    profiles: 'प्रोफाइल',
+    matches: 'मैच',
+    interests: 'रुचियां',
+    messages: 'संदेश',
+    events: 'घटनाएं',
+    profile: 'मेरी प्रोफाइल',
+    settings: 'सेटिंग्स',
+    logout: 'लॉगआउट',
+    admin: 'एडमिन पैनल',
+    
+    // Authentication
+    login: 'लॉगिन',
+    signup: 'साइन अप',
+    email: 'ईमेल',
+    password: 'पासवर्ड',
+    confirmPassword: 'पासवर्ड की पुष्टि करें',
+    forgotPassword: 'पासवर्ड भूल गए?',
+    createAccount: 'खाता बनाएं',
+    alreadyHaveAccount: 'पहले से खाता है?',
+    dontHaveAccount: 'खाता नहीं है?',
+    verifyEmail: 'अपना ईमेल पता सत्यापित करें',
+    
+    // Profile Fields
+    firstName: 'पहला नाम',
+    lastName: 'अंतिम नाम',
+    phone: 'फोन नंबर',
+    gender: 'लिंग',
+    male: 'पुरुष',
+    female: 'महिला',
+    other: 'अन्य',
+    selectGender: 'लिंग चुनें',
+    gotra: 'गोत्र',
+    dateOfBirth: 'जन्म तिथि',
+    birthTime: 'जन्म समय',
+    birthPlace: 'जन्म स्थान',
+    education: 'शिक्षा',
+    profession: 'पेशा',
+    income: 'आय',
+    maritalStatus: 'वैवाहिक स्थिति',
+    neverMarried: 'कभी शादी नहीं हुई',
+    divorced: 'तलाकशुदा',
+    widowed: 'विधवा/विधुर',
+    selectMaritalStatus: 'वैवाहिक स्थिति चुनें',
+    height: 'ऊंचाई',
+    religion: 'धर्म',
+    manglik: 'मांगलिक',
+    yes: 'हां',
+    no: 'नहीं',
+    partial: 'आंशिक',
+    selectManglikStatus: 'मांगलिक स्थिति चुनें',
+    familyDetails: 'पारिवारिक विवरण',
+    
+    // Family Details
+    familyBackground: 'पारिवारिक पृष्ठभूमि',
+    fatherName: 'पिता का नाम',
+    motherName: 'माता का नाम',
+    siblings: 'भाई-बहन',
+    fatherOccupation: 'पिता का व्यवसाय',
+    expectations: 'जीवनसाथी की अपेक्षाएं',
+    partnerExpectations: 'जीवनसाथी की अपेक्षाएं', // Added for clarity, can be removed if 'expectations' is sufficient
+    
+    // Search & Filters
+    search: 'खोजें',
+    advancedSearch: 'उन्नत खोज',
+    filters: 'फिल्टर',
+    ageRange: 'आयु सीमा',
+    heightRange: 'ऊंचाई सीमा',
+    city: 'शहर',
+    state: 'राज्य',
+    educationLevel: 'शिक्षा स्तर',
+    excludeSameGotra: 'समान गोत्र को बाहर करें',
+    manglikMatch: 'मांगलिक मैच आवश्यक',
+    
+    // Actions
+    expressInterest: 'रुचि व्यक्त करें',
+    addToShortlist: 'शॉर्टलिस्ट में जोड़ें',
+    viewContact: 'संपर्क देखें',
+    sendMessage: 'संदेश भेजें',
+    blockProfile: 'प्रोफाइल ब्लॉक करें',
+    reportProfile: 'प्रोफाइल की रिपोर्ट करें',
+    editProfile: 'प्रोफाइल संपादित करें',
+    uploadPhoto: 'प्रोफाइल फोटो अपलोड करें',
+    uploadHoroscope: 'कुंडली अपलोड करें',
+    
+    // Membership
+    freePlan: 'मुफ्त योजना',
+    premiumPlan: 'प्रीमियम योजना',
+    upgradeNow: 'अभी अपग्रेड करें',
+    contactViewsLeft: 'संपर्क दृश्य शेष',
+    unlimitedContactViews: 'असीमित संपर्क दृश्य',
+    
+    // Events
+    upcomingEvents: 'आगामी घटनाएं',
+    pastEvents: 'पिछली घटनाएं',
+    createEvent: 'घटना बनाएं',
+    eventTitle: 'घटना शीर्षक',
+    eventDescription: 'घटना विवरण',
+    eventDate: 'घटना तिथि',
+    eventLocation: 'घटना स्थान',
+    rsvp: 'आर.एस.वी.पी',
+    attending: 'उपस्थित होना',
+    interested: 'रुचि रखते हैं',
+    
+    // Admin
+    profileApproval: 'प्रोफाइल अनुमोदन',
+    userManagement: 'उपयोगकर्ता प्रबंधन',
+    reportManagement: 'रिपोर्ट प्रबंधन',
+    eventManagement: 'घटना प्रबंधन',
+    paymentHistory: 'भुगतान इतिहास',
+    analytics: 'विश्लेषण',
+    approveProfile: 'प्रोफाइल अनुमोदित करें',
+    rejectProfile: 'प्रोफाइल अस्वीकार करें',
+    blockUser: 'उपयोगकर्ता को ब्लॉक करें',
+    unblockUser: 'उपयोगकर्ता को अनब्लॉक करें',
+    
+    // Common
+    save: 'सेव करें',
+    cancel: 'रद्द करें',
+    delete: 'हटाएं',
+    edit: 'संपादित करें',
+    view: 'देखें',
+    submit: 'जमा करें',
+    loading: 'लोड हो रहा है...',
+    success: 'सफलता',
+    error: 'त्रुटि',
+    warning: 'चेतावनी',
+    info: 'जानकारी',
+    required: 'आवश्यक',
+    optional: 'वैकल्पिक',
+    selectLanguage: 'भाषा चुनें',
+    professionalEducationalDetails: 'पेशेवर और शैक्षिक विवरण',
+    uploads: 'अपलोड',
+    submitting: 'सबमिट हो रहा है...',
+    years: 'वर्ष',
+  }
+};
+
+export type Language = 'en' | 'hi';
+export type TranslationKey = keyof typeof translations.en;
