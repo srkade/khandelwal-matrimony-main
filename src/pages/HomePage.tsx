@@ -137,20 +137,35 @@ const HomePage: React.FC = () => {
                   जय श्री सुंदर दासजी की
                 </div>
                 <div className="font-bold text-xl md:text-3xl leading-tight mt-2">
-                  अ.फा. खंडेलवाल वैश्य युवक-युवती
+                  अ.भा. खंडेलवाल वैश्य युवक-युवती
                   <br />
                   <span className="text-2xl md:text-4xl block">
                     परिचय सम्मेलन
                   </span>
                 </div>
                 <div className="mt-1 text-xs md:text-base font-semibold tracking-wide">
-                  एलोरा, छ. सं. सञ्जीनगर (औरंगाबाद)
+                  एलोरा, छ. संभाजीनगर (औरंगाबाद)
                 </div>
                 <div className="text-xl md:text-base font-semibold py-8">
                   दिनांक: २१-२२ नवम्बर २०२५, शुक्रवार - शनिवार
                 </div>
               </div>
+              <div className="flex items-center space-x-4 align-center justify-center mt-6">
+                <Link
+                  to="/login"
+                  className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 font-medium"
+                >
+                  {t("login")}
+                </Link>
+                <Link
+                  to="/signup"
+                  className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 font-medium"
+                >
+                  {t("Register")}
+                </Link>
+              </div>
             </div>
+
             <div className="relative hidden lg:block">
               {/* Image is now background, this div can be used for other elements or removed */}
             </div>
@@ -200,16 +215,11 @@ const HomePage: React.FC = () => {
 
       {/* Features Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+        <div className="max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
+          <div className="text-center mb-1">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {language === "hi" ? "सफलता की कहानियां" : "Commitee Members"}
+              {language === "hi" ? "सफलता की कहानियां" : "Committee Members"}
             </h2>
-            <p className="text-xl text-gray-600">
-              {language === "hi"
-                ? "हमारे खुश जोड़ों की कहानियां"
-                : "Stories from our happy couples"}
-            </p>
           </div>
           <img src={members} alt="" />
         </div>

@@ -35,7 +35,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-white shadow-lg border-b-2 border-amber-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
 
@@ -43,9 +43,9 @@ const Header: React.FC = () => {
             <img
               src={kvmLogo}
               alt="Khandelwal Vikas Manch Logo"
-              className="h-12 w-12 md:h-16 md:w-16 object-contain drop-shadow"
+              className="h-10 w-10 sm:h-12 sm:w-12 md:h-16 md:w-16 object-contain drop-shadow"
             />
-            <span className="text-2xl font-bold text-gray-900">
+            <span className="text-xl sm:text-2xl font-bold text-gray-900 whitespace-nowrap">
               {language === "hi" ? "खंडेलवाल परिणय" : "Khandelwal Parinay"}
             </span>
           </Link>
@@ -71,6 +71,7 @@ const Header: React.FC = () => {
               >
                 {t("interests")}
               </Link>
+
               <Link
                 to="/events"
                 className="text-gray-700 hover:text-amber-600 font-medium"
@@ -90,9 +91,12 @@ const Header: React.FC = () => {
               >
                 {t("communityMembers")}
               </Link>
-              {/* <Link to="/gallery" className="text-gray-700 hover:text-amber-600 font-medium">
-                {t('gallery')}
-              </Link> */}
+              <Link
+                to="/gallery"
+                className="text-gray-700 hover:text-amber-600 font-medium"
+              >
+                {t("gallery")}
+              </Link>
               <Link
                 to="/success-stories"
                 className="text-gray-700 hover:text-amber-600 font-medium"
@@ -130,9 +134,12 @@ const Header: React.FC = () => {
               >
                 {t("aboutUs")}
               </Link>
-              {/* <Link to="/gallery" className="text-gray-700 hover:text-amber-600 font-medium">
-                {t('gallery')}
-              </Link> */}
+              <Link
+                to="/gallery"
+                className="text-gray-700 hover:text-amber-600 font-medium"
+              >
+                {t("gallery")}
+              </Link>
               <Link
                 to="/success-stories"
                 className="text-gray-700 hover:text-amber-600 font-medium"
