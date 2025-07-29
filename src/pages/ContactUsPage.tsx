@@ -74,11 +74,11 @@ const ContactUsPage: React.FC = () => {
             <form className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">Your Name</label>
-                <input type="text" id="name" name="name" className="mt-1 block w-full input" placeholder="John Doe" />
+                <input type="text" id="name" name="name" className="mt-1 block w-full input"  />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">Your Email</label>
-                <input type="email" id="email" name="email" className="mt-1 block w-full input" placeholder="john.doe@example.com" />
+                <input type="email" id="email" name="email" className="mt-1 block w-full input"  />
               </div>
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Subject</label>
